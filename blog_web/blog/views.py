@@ -16,6 +16,7 @@ posts = [
     }
 ]
 
+
 def home(request):
     context = {
         'posts': posts
